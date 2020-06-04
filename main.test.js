@@ -2,7 +2,37 @@
  * YOUR CODE HERE *
  ******************/
 
+let greeting = 'Hello'
+let sum = 0 
+let prod = 0
 
+function greet(a){
+  greeting = greeting + ' ' + a;
+}
+
+function sumOfTwo(a, b){
+  sum = a + b;
+}
+
+function multiply(a, b, c){
+  prod = a * b * c;
+}
+
+function returnWhatISay(sentence){
+  return sentence;
+}
+
+function sayHi(a){
+  return 'Hello ' + a + '!';
+}
+
+function divide(a, b){
+  return a / b;
+}
+
+function remainder(a, b){
+  return a % b;
+}
 
 
 
